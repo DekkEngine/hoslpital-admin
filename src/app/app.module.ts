@@ -14,6 +14,9 @@ import { APP_ROUTE } from "./app.route";
 //Modules
 import { PagesModule } from './pages/pages.module';
 
+//Temporal
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +26,8 @@ import { PagesModule } from './pages/pages.module';
   imports: [
     BrowserModule,
     PagesModule,
-    APP_ROUTE
+    APP_ROUTE,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
