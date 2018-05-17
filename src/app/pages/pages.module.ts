@@ -7,6 +7,8 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AcountSettingsComponent } from './acount-settings/acount-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 import { FormsModule } from "@angular/forms";
 
@@ -30,7 +32,9 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
         Graficas1Component,
         IncrementadorComponent,
         GraficoDonaComponent,
-        AcountSettingsComponent
+        AcountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports : [
         PagesComponent,
